@@ -1,0 +1,127 @@
+body{
+    margin: 0;
+    padding: 5.85rem 0;
+    background: linear-gradient(-225deg, #231557 0%, #44107a 29%, #ff1361 67%, #fff800 100%);
+    background-size: auto;
+    font-family : Verdana,Tahoma, sans-serif;
+}
+
+/* .box{
+    width: 380px;
+    height: 510px;
+    background-color: #131313;
+    padding: 20px;
+    margin: 8% auto 0;
+    text-align: center;
+    position: relative;
+    box-sizing: border-box;
+    flex-direction: column;
+} */
+
+.header {
+	width: 300px;
+    height: 50px;
+    text-transform: uppercase;
+	display: inline-flex;
+    padding-top: 20px;
+    padding-bottom: 0;
+	justify-content: space-between;
+}
+
+.header a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #ffffff;
+	display: inline-flex;
+    padding-left: 25px;
+    padding-right: 25px;
+	justify-content: center;
+    cursor:pointer;
+}
+
+.header .active {
+    color: #df80ff;
+	font-weight: bold;
+	position: relative;
+}
+
+.header .active:after {
+	position: absolute;
+    border: none;
+	content: "";
+}
+
+#errorMsg{
+    color:red;
+    text-align: center;
+    font-size: 12px;
+    padding-bottom: 20px;
+
+}
+
+.content{
+    display: grid;
+    overflow: hidden;
+}
+
+input[type=text]{
+	display:block;
+    position: relative;
+	border: 4px solid #ffffff;
+	padding: 12px;
+    margin-bottom: 15px;
+    width: 100%;
+ 	box-sizing: border-box;
+    font-size: 17px;
+    outline: none;
+}
+
+input[type=text]:hover{
+    border: 4px solid #df80ff;
+
+}
+
+textarea {
+    display:block;
+    position: relative;
+	border: 4px solid #ffffff;
+	padding: 12px;
+    margin-bottom: 15px;
+    width: 100%;
+    height: 550px;
+ 	box-sizing: border-box;
+    font-size: 17px;
+    outline: none;
+}
+
+h4 {
+    color: #fff;
+}
+
+textarea:hover {
+    border: 4px solid #df80ff;
+}
+
+input[type=submit]{
+    display:block;
+    position: relative;
+    border: 3px solid #df80ff;
+    padding: 12px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    border-radius: 25px;
+    background-color:#600080 ;
+    text-align:center;
+    font-size: 20px;
+    color: #ffffff;
+	cursor:pointer;
+    outline: none;
+}
+	
+input[type=submit]:hover{
+	 background-color:#ffffff;
+     color: #000000;
+     font-weight: bold;
+}
